@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+::selection {
+    color: #fafafa;
+    background: #009688;
+}
+
+body {
+    background-color: #E0E0E0;
+}
+
+.container {
+    height: 60px;
+    width: 100%;
+    background-color: #00897B;
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+.nav {
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    width: 5%;
+    height: 60px;
+    background-image: url(../assets/logo/logo_quadrado_branco.png);
+    background-size: 60% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.user {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+
+.nome {
+    cursor: default;
+    font-family: 'Raleway', sans-serif;
+    color: #fafafa;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.logoff {
+    float: right;
+    margin-right: 14px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #fafafa;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.container-menu {
+    position: absolute;
+    min-height: calc(100vh - 60px);
+    width: 230px;
+    background-color: #00897B;
+    box-shadow: 0 4px 5px rgba(0,0,0,.36);
+}
+
+.menus {
+    margin-top: 54px;
+}
+
+.menus a {
+    font-weight: 700;
+    font-size: 15px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: #fafafa;
+    display: block;
+    width: calc(100% - 20px);
+    padding: 20px 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menus a:hover {
+    transition: 0.5s;
+    background-color: #26A69A;
+}
+
+.container-direita {
+    float: right;
+    width: calc(100% - 230px);
+    min-height: calc(100vh - 114px);
+    height: 250px;
+}
+
+.titulo-pagina {
+    cursor: default;
+    width: calc(100% - 262px);
+    float: right;
+    padding: 16px;
+    background-color: #00796B;
+}
+
+.h-titulo-pagina {
+    text-align: center;
+    color: #fafafa;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.div-form-upload {
+    margin-top: 30%;
+    width: 40%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #F5F5F5;
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+.form-upload {
+    text-align: center;
+}
+
+.form upload label, input {
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo-upload {
+    font-family: 'Raleway', sans-serif;
+    color: #757575;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.botao-upload {
+    
+}
+
+.ficheiros {
+    padding: 40px;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+.label-upload {
+    border: none;
+    margin-top: 10px;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    background-color: #00897B;
+    color: #fafafa;
+    cursor: pointer;
+    padding: 8px
+}
+
+.container-dir {
+    border-radius: 7px;
+    width: 40%;
+    padding: 60px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-dir h3, p {
+    padding-bottom: 30px;
+    display: inline-block;
+    color: #616161;
+}
+
+.container-dir p {
+    float: right;
+    display: inline-block;
+}
+
+.form-opcoes {
+    width: 60%;
+    padding: 60px;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #616161;
+}
+
+.label-opcoes {
+    display: inline-block;
+    font-weight: 700;
+    width: 200px;
+}
+
+.input-opcoes {
+    border: 1px solid #E0E0E0;
+    width: 190px;
+    padding: 6px;
+}
+
+.input-opcoes:active , .input-opcoes:focus {
+    border: 1px solid #00897B;
+}
+
+.opcoes {
+    margin-bottom: 40px;
+}
+
+
+.opcoes-menus {
+    width: 88px;
+}
+
+.botao-opcoes {
+    background-color: white;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.enviar {
+    color: #fafafa;
+    font-weight: 700;
+    width: 140px;
+    height: 30px;
+    border: none;
+    background-color: #00897B;
+}
+
+
+
+
+
+

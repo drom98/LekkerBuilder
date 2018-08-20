@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+::selection {
+    color: #fafafa;
+    background: #009688;
+}
+
+body {
+    background-image: url(../images/bg5.png);
+    background-size: cover;
+}
+
+.logo {
+    width: 100%;
+    height: 57px;
+    background-image: url(../logo/logo_nome_2.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 55px;
+}
+
+.container-caixa {
+    margin: 0 auto;
+    max-width: 700px;
+    height: 400px;
+}
+
+.caixa { 
+    margin-top: 25vh;
+    margin-bottom: 5vh;
+    background-color: #fafafa;
+    border-radius: 10px;
+    max-width: 700px;
+    height: 300px;
+    padding: 20px;
+}
+
+.p-inicio {
+    position: relative;
+    top: 50%;
+    transform: translateY(-150%);
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #757575;
+}
+
+.link-site-inicio, a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #009688;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.btn-seguinte {
+    border: none;
+    text-transform: uppercase;
+    background-color: #009688;
+    padding: 5px;
+    text-decoration: none;
+    color: #FAFAFA;
+    border-radius: 6px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.inicio {
+    margin-top: 20px;
+    width: 35%;
+}
+
+.caixa-dados-bd {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    background-color: #fafafa;
+    border-radius: 10px;
+    max-width: 700px;
+    height: 500px;
+    padding: 20px;
+}
+
+.caixa-dados-bd label {
+    color: #757575;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.dados {
+    margin-top: 10px;
+}
+
+.textbox {
+    width: 90%;
+    margin-bottom: 30px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    background-color: #eeeeee;
+}
+
+.container-form {
+    width: 32%;
+    margin: 0 auto;
+}
+
+.info-dados-bd {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    color: #009688;
+    font-size: 10px;
+}
+
+
+/* Estilos da página db-connect-test.php / ver-dados.php */
+
+.erro {
+    display: block;
+    color: #FAFAFA;
+    background-color: #424242;
+    font-family: 'Raleway', sans-serif;
+    padding: 14px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-seguinte-info {
+    border: none;
+    text-transform: uppercase;
+    background-color: #009688;
+    padding: 5px;
+    text-decoration: none;
+    color: #FAFAFA;
+    border-radius: 6px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.info {
+    font-family: 'Raleway', sans-serif;
+    color: #757575;
+}
+
+.p-info {
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+
+.h3-info {
+    padding-bottom: 20px;
+}
+
+/* Estilos da pagina criar-tabelas.php */
+
+.titulo {
+    font-family: 'Raleway', sans-serif;
+    color: #757575;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+/* Estilos da pagina de login */
+
+.caixa-login {
+    margin-top: 15vh;
+    height: 400px;
+}
+
+.titulo-login {
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+.textbox-login {
+    width: 100%;
+}
+
+.label-login {
+    text-align: center;
+}
+
+#loading {
+    display: none;
+}
+
+
